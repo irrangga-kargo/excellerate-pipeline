@@ -16,7 +16,7 @@ func (i *Index) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func HelloWorld() string {
-	return "Hello world!"
+	return "Hello world! UPDATE"
 }
 
 func main() {

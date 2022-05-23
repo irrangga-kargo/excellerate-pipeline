@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	_helloWorld = "Hello world!"
+	_helloWorld = "Hello world! UPDATE"
 )
 
 func TestHelloWorld(t *testing.T) {
