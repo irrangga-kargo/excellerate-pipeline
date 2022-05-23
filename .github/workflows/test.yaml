@@ -5,6 +5,7 @@ on: push
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     name: Build Application
     steps:
       - name: Checkout code
