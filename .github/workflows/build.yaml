@@ -12,7 +12,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Docker build
         run: |
-          docker build -t ./go .
+          cd go
+          docker build -t temp/build .
       - name: Push docker image
         run: | 
           docker tag temp/build irranggakargo/excellerate:latest
